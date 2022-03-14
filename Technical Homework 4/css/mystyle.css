@@ -1,0 +1,57 @@
+﻿body {
+    background-image: url('https://www.rsm.ac.uk/media/5471614/pain-medicine.jpg?anchor=center&mode=crop&width=1600&height=640&rnd=132144132180000000');
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+
+
+.data-container {
+    height: 350px;
+    width: 400px;
+    top: 50%;
+    transform: translate(0,40%);
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #3D4C61;
+    border-radius: 15px;
+}
+
+table {
+    padding:10px;
+    margin:10px;
+    table-layout:fixed;
+    
+}
+
+.submit-ticket {
+    position: fixed;
+    bottom: 12%;
+}
+
+
+
+.data-field {
+    background-color:white;
+    height:35px;
+    width:125px;
+    padding-left:5px;
+    border-radius: 15px;
+}
+
+
+
+.label {
+    left:0;
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.data-label {
+    margin-bottom: -3px;
+    margin-left:7px;
+}
+
+.half {
+    width:50%;
+}
