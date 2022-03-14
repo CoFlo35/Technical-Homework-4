@@ -56,7 +56,7 @@
 
                 <td class="filled"></td>
                 <td></td>
-                <td class="data-field"></td>
+                <td class="filled"></td>
                 <td></td>
                 <td class="filled"></td>
             </tr>

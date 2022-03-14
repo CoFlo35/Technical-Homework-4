@@ -93,7 +93,7 @@
                 <td></td>
                 <td><p class="label data-label">Pet Weight</p></td>
                 <td></td>
-                <td><p class="label data-label">Pet Age</p></td>
+                <td><p class="label data-label">Pet Name</p></td>
 
             </tr>
             <tr>
