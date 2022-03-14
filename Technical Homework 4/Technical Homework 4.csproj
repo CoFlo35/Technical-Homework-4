@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="css\mystyle.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Dispensary.aspx" />
     <Content Include="PetOwner.aspx" />
     <Content Include="Vet.aspx" />
     <Content Include="Web.config" />
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dispensary.aspx.cs">
+      <DependentUpon>Dispensary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dispensary.aspx.designer.cs">
+      <DependentUpon>Dispensary.aspx</DependentUpon>
     </Compile>
     <Compile Include="PetOwner.aspx.cs">
       <DependentUpon>PetOwner.aspx</DependentUpon>

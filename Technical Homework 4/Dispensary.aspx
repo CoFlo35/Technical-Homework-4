@@ -1,9 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Vet.aspx.cs" Inherits="Technical_Homework_4.Vet" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Dispensary.aspx.cs" Inherits="Technical_Homework_4.Dispensary" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="d-flex justify-content-center">
-    <div class="data-container" style="height:fit-content; transform:translate(0,10%);">
+
+
+<div class="d-flex justify-content-center">
+    <div class="data-container" style="height:fit-content; transform:translate(0,15%);">
         <table>
             <tr >
                 <th style="width:380px;">      
@@ -56,7 +58,7 @@
 
                 <td class="filled"></td>
                 <td></td>
-                <td class="data-field"></td>
+                <td class="filled"></td>
                 <td></td>
                 <td class="filled"></td>
             </tr>
@@ -71,15 +73,13 @@
             
             
             <tr>
-                <td class="data-field"></td>
+                <td class="filled"></td>
             </tr>
             <tr>
-                <td>      
-                    <p class="label data-label" colspan="5">Comments</p>
-                </td>
+                <td class="label data-label"><asp:RadioButton ID="RadioButton1" runat="server" Text="  Able to fill prescription?" GroupName="fill" checked="true"/> </td>
             </tr>
             <tr>
-                <td class="data-field" colspan="5" style="height:100px;"></td>
+                <td class="label data-label"><asp:RadioButton ID="RadioButton2" runat="server" Text="  Request alternate prescription?" GroupName="fill" /> </td>
             </tr>
             </table>
 
@@ -90,4 +90,6 @@
     <div class ="btn btn-lg btn-success submit-ticket" style="border:8px double black; bottom:5%; left:40%">Submit</div>
     <div class ="btn btn-lg btn-danger back" style="border:8px double black;bottom:5%;right:40%;">Cancel</div>
 </div>
+
+
 </asp:Content>

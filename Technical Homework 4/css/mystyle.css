@@ -1,7 +1,7 @@
 ﻿body {
-    background-image: url('https://www.rsm.ac.uk/media/5471614/pain-medicine.jpg?anchor=center&mode=crop&width=1600&height=640&rnd=132144132180000000');
+    background-image: url('https://legislativeanalysis.org/wp-content/uploads/2021/03/More-Pills.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 200%;
+   
 }
 
 .filled {
@@ -37,6 +37,10 @@ table {
     bottom: 12%;
 }
 
+.back {
+    position: fixed;
+}
+
 
 
 .data-field {
@@ -53,7 +57,7 @@ table {
     left:0;
     color:white;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .data-label {
     margin-bottom: -3px;

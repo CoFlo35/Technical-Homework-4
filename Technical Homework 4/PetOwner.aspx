@@ -123,7 +123,8 @@
 </div>
 
 <div class="d-flex justify-content-center">
-    <div class ="btn btn-lg btn-warning submit-ticket" style="border:8px double black">Submit Ticket</div>
+    <div class ="btn btn-lg btn-success submit-ticket" style="border:8px double black; bottom:5%; left:40%">Submit</div>
+    <div class ="btn btn-lg btn-danger back" style="border:8px double black;bottom:5%;right:40%;">Cancel</div>
 </div>
 
 

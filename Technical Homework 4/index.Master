@@ -22,7 +22,7 @@
                     <div class="navbar-nav">
                       <a class="nav-item nav-link" href="PetOwner.aspx">Pet Owners</a>
                       <a class="nav-item nav-link" href="Vet.aspx">Veterinarian</a>
-                      <a class="nav-item nav-link" href="#">Dispensary Department</a>
+                      <a class="nav-item nav-link" href="Dispensary.aspx">Dispensary Department</a>
                     </div>
                 </div>
             </nav>
