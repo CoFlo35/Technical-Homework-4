@@ -4,6 +4,14 @@
     background-size: 100% 200%;
 }
 
+.filled {
+    background-color: #FEFFBA;
+    height: 35px;
+    width: 125px;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
 
 
 .data-container {

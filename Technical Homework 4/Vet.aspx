@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="d-flex justify-content-center">
-    <div class="data-container">
+    <div class="data-container" style="height:fit-content; transform:translate(0,10%);">
         <table>
             <tr >
                 <th style="width:380px;">      
@@ -14,7 +14,7 @@
             
             
             <tr>
-                <td class="data-field"></td>
+                <td class="filled"></td>
             </tr>
             </table>
             <table>
@@ -27,7 +27,7 @@
             
             
             <tr>
-                <td class="data-field"></td>
+                <td class="filled"></td>
             </tr>
             </table>
             <table>
@@ -38,8 +38,8 @@
                 <th style="width:190px;"><p class="label data-label">Breed</p></th>
             </tr>
             <tr>
-                <td class="data-field"></td>
-                <td class="data-field"></td>
+                <td class="filled"></td>
+                <td class="filled"></td>
             </tr>
             </table>
             <table>
@@ -54,11 +54,11 @@
             </tr>
             <tr>
 
-                <td class="data-field"></td>
+                <td class="filled"></td>
                 <td></td>
                 <td class="data-field"></td>
                 <td></td>
-                <td class="data-field"></td>
+                <td class="filled"></td>
             </tr>
             </table>
             <table>
@@ -73,62 +73,20 @@
             <tr>
                 <td class="data-field"></td>
             </tr>
+            <tr>
+                <td>      
+                    <p class="label data-label" colspan="5">Comments</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="data-field" colspan="5" style="height:100px;"></td>
+            </tr>
             </table>
 
 
-            <table>
-            <tr>
-            <td colspan="2">      
-                    <p class="label data-label">Owner Email</p>
-            </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="data-field">            
-                </td>
-            </tr>
-            <tr>
-            <td colspan="2">      
-                    <p class="label data-label">Phone Number</p>
-            </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="data-field">            
-                </td>
-            </tr>
-            <tr>
-                <td>      
-                    <p class="label data-label">Street Address</p>
-                </td>
-                <td>      
-                    <p class="label data-label">City</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="data-field">            
-                </td>
-                <td class="data-field">            
-                </td>
-            </tr>
-
-            <tr>
-                <td>      
-                    <p class="label data-label">State</p>
-                </td>
-                <td>      
-                    <p class="label data-label">Zip</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="data-field">            
-                </td>
-                <td class="data-field">            
-                </td>
-            </tr>
-            
-            
-           
-            
-        </table>
     </div>
+</div>
+<div class="d-flex justify-content-center">
+    <div class ="btn btn-lg btn-warning submit-ticket" style="border:8px double black; bottom:5%;">Submit Ticket</div>
 </div>
 </asp:Content>
